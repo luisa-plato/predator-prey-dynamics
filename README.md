@@ -4,7 +4,7 @@ This is a finite element code to simulate the following predator-prey dynamics o
 ```math
 \begin{align*}
 \partial_t u - \nu \Delta u + \kappa \nabla \cdot (u \nabla w) 
-		 &= (\alpha w - \beta) u  &&\text{ in } (0,T) \times \Omega,\label{eq:model_u}\\
+		 &= (\alpha w - \beta) u  &&\text{ in } (0,T) \times \Omega,\\
 		\partial_t w - \mu \Delta w
 		&= (\gamma - \delta u) w &&\text{ in } (0,T) \times \Omega,\\
 		\nabla u \cdot \boldsymbol{n} &= 0 &&\text{ on } [0,T] \times \Gamma,\\
