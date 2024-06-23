@@ -7,8 +7,8 @@ This is a finite element code to simulate the following predator-prey dynamics o
 		 &= (\alpha w - \beta) u  &&\text{ in } (0,T) \times \Omega,\label{eq:model_u}\\
 		\partial_t w - \mu \Delta w
 		&= (\gamma - \delta u) w &&\text{ in } (0,T) \times \Omega,\\
-		\nabla u \cdot \bn &= 0 &&\text{ on } [0,T] \times \Gamma,\\
-		\nabla w \cdot \bn &= 0 &&\text{ on }  [0,T] \times \Gamma .
+		\nabla u \cdot \boldsymbol{n} &= 0 &&\text{ on } [0,T] \times \Gamma,\\
+		\nabla w \cdot \boldsymbol{n} &= 0 &&\text{ on }  [0,T] \times \Gamma .
 \end{align*}
 ```
 
